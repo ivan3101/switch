@@ -10,7 +10,7 @@ function switchOn(event, time = 1) {
 
         active.push(button.id);
         const timeToOff = defaultTimeOut * time;
-        console.log(timeToOff);
+        
         setTimeout(switchOff, timeToOff, button);
     }
 }
