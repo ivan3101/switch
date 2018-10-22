@@ -1,0 +1,29 @@
+{
+  "name": "button-switch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "development": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivan3101/switch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivan3101/switch/issues"
+  },
+  "homepage": "https://github.com/ivan3101/switch#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mqtt": "^2.18.8",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
